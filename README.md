@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning React.
 - 💞️ I’m looking to collaborate on different interesting projects.
 - 📫 How to reach me -> LinkedIn : /iuliana-pintilie-a2bb14208
-                      -> Telegram : @iulianapintilie
+                      -> Telegram : @happymelon01
                       -> Email : iulianapintilie2017@gmail.com
 
 <!---
