@@ -1,0 +1,11 @@
+.background-home-image{
+    position:static;
+    padding: 0.5rem;
+}
+
+.background-home-image img{
+    object-fit: cover;
+    width: 90%;
+    height: 20%;
+    
+}

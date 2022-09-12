@@ -1,0 +1,146 @@
+
+.single-post-page{
+    font-family: var(--font-family);
+    background-color: var(--color-bg);
+
+}
+
+.box {
+    position: fixed;
+    top: 0;
+    transform: rotate(80deg);
+    left: 0;
+    height: 1000px;
+}
+
+.wave {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 3%;
+    left: 10%;
+    background: var(--color-footer);
+    width: 1500px;
+    height: 1300px;
+    margin-left: -150px;
+    margin-top: -250px;
+    transform-origin: 50% 48%;
+    border-radius: 43%;
+    animation: drift 9000ms infinite linear;
+}
+
+.wave.-three {
+    animation: drift 9500ms infinite linear;
+    position: fixed;
+    background-color: var(--color-blog);
+}
+
+.wave.-two {
+    animation: drift 5000ms infinite linear;
+    opacity: 0.3;
+    background: rgba(187, 134, 252, 1);
+    position: fixed;
+}
+
+.box:after {
+    content: "";
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    transform: translate3d(0, 0, 0);
+}
+@keyframes drift {
+    from {
+        transform: rotate(0deg);
+    }
+
+    from {
+        transform: rotate(360deg);
+    }
+} 
+
+
+
+
+
+
+.info{
+    padding-bottom: 0;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    font-weight:600;
+}
+.info_single_page h1{
+    font-size: 3rem;
+  text-align: center;
+
+}
+.author{
+  padding: 3rem;
+  margin: 2rem;
+    position:absolute;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
+.mainImage img {
+    width: 400px;
+    height: 600px;
+    transition: transform .25s;
+
+}
+
+.mainImage img:hover {
+    transform: scale(1.3);}
+
+.mainImage{
+position:relative;
+align-items: center;
+align-self: center;
+display: block;
+margin: auto;
+padding: auto;
+width: 400px;
+}
+
+.author img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.author-link{
+    font-size: 1.5rem;
+    position: absolute;
+    padding: 1rem;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+@media screen and (max-width: 770px) {
+    .single-post-page h1 {
+        font-size: 1.5rem;
+    }
+    .info{
+        font-size: 1rem;
+    }
+        .mainImage {
+            width: 300px;
+            height: 450px;
+        }
+                .mainImage img{
+                    width: 300px;
+                    height: 450px;
+                }
+                                .mainImage img:hover{
+                                    display: none;
+                                }
+}
+

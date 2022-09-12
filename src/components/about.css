@@ -1,0 +1,61 @@
+.background1{
+    font-family: var(--font-family);
+    background-image: url(../patternpad.jpeg);
+    background-repeat: no-repeat;
+   
+}
+
+.author_image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50% ;
+    position:static;
+    padding: 1rem;
+    
+  
+}
+
+.author_info{
+    position: static;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: var(--color-blog);
+    font-size: 1.5rem;
+    
+}
+
+
+.author_bio{
+    text-align: center;
+    padding: 1rem 2rem;
+    color: black;
+    font-weight: 600;
+    align-items: center;
+position: static;
+font-size: 1rem;
+
+
+}
+
+
+@media screen and (max-width: 1300px){
+    .author_bio {
+        margin-left: 0;
+    
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .author_image {
+        width: 150px;
+        height: 150px;
+        top: 25px;
+    }
+    .author_info{
+        font-size: 1.5rem;
+    }
+    .author_bio{
+        font-size: 1rem;
+    }
+}
