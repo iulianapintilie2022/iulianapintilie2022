@@ -127,7 +127,7 @@ background: rgba(229, 219, 247, 0.35);
         align-items:flex-start;
         font-weight:800;
         justify-content: space-between;
-        position:fixed;
+        position:relative;
 }
 .projects-page-card-info span{
     padding: 0;
