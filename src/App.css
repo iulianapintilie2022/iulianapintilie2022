@@ -4,16 +4,13 @@
   margin: 0;
   scroll-behavior: smooth;
 }
-
 body {
   background: var(--color-bg);
 }
-
 a {
   color: unset;
   text-decoration: none;
 }
-
 .gradient__bg {
   /* ff 3.6+ */
   background: -moz-linear-gradient(154deg, rgba(98, 0, 238, 1) 0%, rgba(187, 134, 252, 1) 100%);
@@ -33,10 +30,7 @@ a {
   /* global 94%+ browsers support */
   background: linear-gradient(154deg, rgba(98, 0, 238, 1) 0%, rgba(187, 134, 252, 1) 100%);
 }
-
 /* background ombre animation */
-
-
 @-webkit-keyframes bg-pan-left {
   0% {
     background-position: 100% 50%;
@@ -46,7 +40,6 @@ a {
     background-position: 0% 50%;
   }
 }
-
 @keyframes bg-pan-left {
   0% {
     background-position: 100% 50%;
@@ -56,13 +49,11 @@ a {
     background-position: 0% 50%;
   }
 }
-
 /* animation*/
 .scale-up-ver-bottom {
   -webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
-
 @-webkit-keyframes scale-up-ver-bottom {
   0% {
     -webkit-transform: scaleY(0.4);
@@ -70,7 +61,6 @@ a {
     -webkit-transform-origin: 0% 100%;
     transform-origin: 0% 100%;
   }
-
   100% {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
@@ -78,7 +68,6 @@ a {
     transform-origin: 0% 100%;
   }
 }
-
 @keyframes scale-up-ver-bottom {
   0% {
     -webkit-transform: scaleY(0.4);
@@ -86,7 +75,6 @@ a {
     -webkit-transform-origin: 0% 100%;
     transform-origin: 0% 100%;
   }
-
   100% {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
@@ -94,33 +82,25 @@ a {
     transform-origin: 0% 100%;
   }
 }
-
-
-
 .section__padding {
   padding: 4rem 6rem;
 }
-
 .section__margin {
   margin: 4rem 6rem;
 }
-
 @media screen and (max-width: 700px) {
-  .section__padding {
+.section__padding {
     padding: 4rem 6rem;
   }
-
-  .section__margin {
+.section__margin {
     margin: 4rem;
   }
 }
-
 @media screen and (max-width: 550px) {
-  .section__padding {
+.section__padding {
     padding: 4rem 2rem;
   }
-
-  .section__margin {
+.section__margin {
     margin: 4rem 2rem;
   }
 }

@@ -4,9 +4,6 @@ import { SocialIcon } from "react-social-icons";
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../logo.png';
 import './navbar.css';
-import copylink from "../copy.png";
-
-
 export default function Navbar() {
     const [toggleMenu, setToggleMenu] = useState(false);
     const [copied, setCopied] = useState(false);

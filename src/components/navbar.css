@@ -10,26 +10,21 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 .site__navbar-links_logo img {
     height: 150px;
     width: 150px;
-
 }
-
 .site__navbar-links_container {
     display: flex;
     flex-direction: row;
 }
-
 .site__navbar-links{
     font-family: var(--font-family);
         font-weight: 200;
         font-size: 1rem;
         line-height: 25px;
         text-transform: capitalize;
-        
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: 0.5em;
@@ -39,7 +34,6 @@
             align-items: center;
             padding: 1rem 1rem;
 }
-
 .social{
     display: flex;
     justify-content: space-between;
@@ -56,25 +50,20 @@
         background-image: linear-gradient(30deg,rgba(98, 0, 238, 1) ,rgb(103, 39, 181));
         border-radius: 45%;
         padding: 10px 10px;
-       
 }
-
 .social-copy-button button:hover {
     background-position: right center;
     background-size: 200% auto;
     -webkit-animation: pulse 2s infinite;
     animation: pulse512 1.5s infinite;
 }
-
 @keyframes pulse512 {
     0% {
         box-shadow: 0 0 0 0 #6c05da66;
     }
-
     70% {
         box-shadow: 0 0 0 10px rgba(48, 15, 235, 0);
     }
-
     100% {
         box-shadow: 0 0 0 0 rgba(131, 19, 228, 0);
     }
@@ -85,7 +74,6 @@
     display: none;
     position: relative;
 }
-
 .site__navbar-menu_container {
     display: flex;
     justify-content: center;
@@ -100,12 +88,9 @@
     border-radius: 5px;
     box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
 }
-
 .site__navbar-menu_container p {
     margin: 0rem 0;
 }
-
-
 @media screen and (max-width: 1300px){
     .site__navbar-links_logo {
             right: 40px;
@@ -119,8 +104,6 @@
     }
 
 }
-
-
 @media screen and (max-width: 770px) {
     .site__navbar {
         padding: 2rem 4rem;
@@ -139,13 +122,11 @@
         right: 20px;
     }
 }
-
 @media screen and (max-width: 560px) {
     .site__navbar {
         padding: 1rem;
         margin: 0;
     }
-
     .site__navbar-links_logo {
         right: 30px;
     }
@@ -153,21 +134,18 @@
               position: fixed;
               left: 0px;
               padding: 0.5rem;
-             
           }
-    .social{
+.social{
         left: -40px;
     }
     .site__navbar-sign {
         display: none;
     }
-
     .site__navbar-menu_container-links-sign {
         display: block;
     }
 }
  @media screen and (max-width: 480px){
- 
  .site__navbar-links_logo {
      right: 0px;
  }
